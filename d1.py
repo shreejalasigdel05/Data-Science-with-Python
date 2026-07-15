@@ -41,21 +41,29 @@
 # ds['fee']=float(input("Enter the fee: "))
 # print(ds)
 
-def student(name,course,fee):
-    ds={
-        "name":name,
-        "course":course,
-        "fee":fee
-    }
-    return ds
+# def student(name,course,fee):
+#     ds={
+#         "name":name,
+#         "course":course,
+#         "fee":fee
+#     }
+#     return ds
 
-n=input("Enter the name: ")
-c=input("Enter the course: ")
-f=float(input("Enter the fee: "))
+# n=input("Enter the name: ")
+# c=input("Enter the course: ")
+# f=float(input("Enter the fee: "))
 
-d=student(n,c,f)
-print(d)
+# d=student(n,c,f)
+# print(d)
 
+def Isdict(x,y):
+    if type(x)==list:
+        print("List",x)
+    if type(y)== dict:
+        print("Dict")
 
+ls=[11,12,33]
+dt={'name':'shree','age':33}
+Isdict(ls,dt)
 
 
