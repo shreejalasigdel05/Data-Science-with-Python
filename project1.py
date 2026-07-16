@@ -68,7 +68,11 @@ def view_student():
             print(f'Course: {student["Course"]}')
             print('-'*30)
 def search_student():
-    pass
+    stu=input("Enter the student you're searching")
+    if stu in students:
+        print(stu)
+    else:
+        print("cannot find the student")
 def update_student():
     pass
 def delete_student():
