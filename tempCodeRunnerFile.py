@@ -1,3 +1,2 @@
-import imp1 as i
-
-# sum=i.add(i.a,i.b)
+li={1,2,3,4,5}
+# arr=np.array([10,20,30,40])
