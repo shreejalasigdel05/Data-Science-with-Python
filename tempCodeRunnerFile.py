@@ -1,2 +1,4 @@
-li={1,2,3,4,5}
-# arr=np.array([10,20,30,40])
+print(arr)
+# print(arr.ndim)
+# arr2=arr.reshape(4,3)
+# print(arr2)
