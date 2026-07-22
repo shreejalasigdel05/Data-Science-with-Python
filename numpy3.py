@@ -45,7 +45,7 @@ import numpy as np
 # print(a.ndim)
 
 
-arr=np.arange(12)
+# arr=np.arange(12)
 # print(arr)
 # print(arr.ndim)
 # arr2=arr.reshape(4,3)
@@ -54,7 +54,11 @@ arr=np.arange(12)
 # print(arr1)
 # arr3=arr.reshape(6,2)
 # print(arr3)
-arr4=arr.reshape(2,2,3)
-print(arr4)
+# arr4=arr.reshape(2,2,3)
+# print(arr4)
 
-
+arr=np.arange(1,13)
+arr2=arr.reshape(3,4)
+print(arr2)
+print(arr2[1])
+print()
