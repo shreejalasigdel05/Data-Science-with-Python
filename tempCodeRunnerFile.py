@@ -1,1 +1,2 @@
-print(a>25)
+print(df.head)
+print(df.tail)
